@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "b20e5e15-d712-4959-b64e-08517a943371",
+		"name": "Astronaut API collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET local astronaut 276",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/astronauts/1.0/astronaut/276",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"astronauts",
+						"1.0",
+						"astronaut",
+						"276"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET local ALL astronauts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/astronauts/1.0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"astronauts",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET api 276",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://spacelaunchnow.me/api/3.5.0/astronaut/276",
+					"protocol": "http",
+					"host": [
+						"spacelaunchnow",
+						"me"
+					],
+					"path": [
+						"api",
+						"3.5.0",
+						"astronaut",
+						"276"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
