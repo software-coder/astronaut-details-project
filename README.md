@@ -4,7 +4,7 @@
 
 This is a Spring Boot project which exposes 2 endpoints:
 
-http://localhost:8080/api/astronauts/1.0
+http://localhost:8080/api/astronauts/1.0<br/>
 http://localhost:8080/api/astronauts/1.0/astronaut/{id}
 
 Where id is the numeric id of the astronaut e.g. 276.
