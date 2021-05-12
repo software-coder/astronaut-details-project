@@ -36,3 +36,7 @@ The API endpoint ```http://localhost:8080/api/astronauts/1.0``` calls ```https:/
 ### Things to watch out for
 
 If you fire the requests too many times, the source API may respond with 429 Too Many Requests from ```GET https://spacelaunchnow.me/api/3.5.0/astronaut/276/?format=json```. Be mindful of this. The 429 response doesn't include a Retry-After header so we are unsure after how long it is safe to retry the request.
+
+### Postman collection
+
+I've included a POSTMAN collection with the 2 endpoints that can be fired locally when the code is running.
